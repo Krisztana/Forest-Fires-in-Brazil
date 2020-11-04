@@ -13,8 +13,10 @@ The dataset is from [Kaggle](https://www.kaggle.com/), it was obtained from the 
 
 It includes the reports of the number of forest fires in Brazil divided by states from 1998 to 2017.
 
-Brazil_forestfires_EDA - includes the data exploration and visualization
+It includes:
 
-Brazil_forestfires_map - an interactive choropleth map with the number of fires data, by choosing a year the map will show the total number of fires in each region in that year
+* Brazil_forestfires_EDA - data exploration and visualization
+
+* Brazil_forestfires_map - an interactive choropleth map with the number of fires data, by choosing a year the map will show the total number of fires in each region in that year
 
 I used GeoPandas and the Bokeh library to create the map.
