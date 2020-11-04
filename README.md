@@ -1,13 +1,20 @@
-# Forest-Fires-in-Brazil
+## Forest Fires in Brazil
 
-Forest Fires in Brazil
+I am still working on this project.
 
-The dataset is from kaggle.com, it was obtained from the official website of the Brazilian government:
+### Challenge description
 
-http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif 
+Forest fires are very serious problem for the preservation of the Tropical Forests. Understanding the frequency of the fires in a time series can help to take action to prevent them.
+Brazil has the largest rainforest on the planet.
+
+### Dataset
+
+The dataset is from [Kaggle](https://www.kaggle.com/), it was obtained from the official website of the [Brazilian government](http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif).
 
 It includes the reports of the number of forest fires in Brazil divided by states from 1998 to 2017.
 
-Brazil_forestfires_EDA - include data exploration and visualization
+Brazil_forestfires_EDA - includes the data exploration and visualization
 
-Brazil_forestfires_map - an interactive map, by choosing a year the map will show the total number of fires in each region in that year
+Brazil_forestfires_map - an interactive choropleth map with the number of fires data, by choosing a year the map will show the total number of fires in each region in that year
+
+I used GeoPandas and the Bokeh library to create the map.
